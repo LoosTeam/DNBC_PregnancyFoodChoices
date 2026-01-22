@@ -1,4 +1,4 @@
-# Food choices during pregnancy: Evidence from 63,405 Danish women
+# Food choices during pregnancy: evidence from 63,405 Danish women
 
 This is a repository of code associated with the publication: **Food choices during pregnancy: evidence from 63,405 Danish women** by Erica Elizabeth Eberl, Anne Ahrendt Bjerregaard, Arnór Ingi Sigurdsson, Siddhi Yash Jain, Ann-Marie Hellerung Christiansen, Charlotta Granström, Matthew Paul Gillum, Thorhallur Ingi Halldórsson, Simon Rasmussen, Sjurdur Frodi Olsen, Ruth J.F. Loos, and Marta Guasch-Ferré.
 
@@ -12,8 +12,15 @@ As a part of this study, we developed **[DNBCFoodTextClassifier](https://hugging
 **Subcategories:** 62 specific food categories that were combined to create the 17 major food categories, e.g. Flavoured milks, Berries, Tropical fruits, Leaf and stem vegetables, etc.
 
 
-## Data preparation scripts
+## Explore the Model’s Performance
+
+Explore the model’s performance using an interactive Shiny application:  
+[DNBCFoodTextClassifier Shiny App](https://cbmr-rmpp.shinyapps.io/DNBCFoodTextClassifier/)
+
 
 ## Using the DNBCFoodTextClassifier
+
+## Data preparation scripts
+
 
 ## Contact
