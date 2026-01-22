@@ -17,8 +17,14 @@ As a part of this study, we developed **[DNBCFoodTextClassifier](https://hugging
 Explore the model’s performance using an interactive Shiny application:  
 [DNBCFoodTextClassifier Shiny App](https://cbmr-rmpp.shinyapps.io/DNBCFoodTextClassifier/)
 
+Here you can find the performance metrics for predicting different categories and additional plots with prediction scores and feature importance.
+
 
 ## Using the DNBCFoodTextClassifier
+
+To use the model on your own data, you can follow the guide in our GitHub docs: [https://loosteam.github.io/DNBC_PregnancyFoodChoices](https://loosteam.github.io/DNBC_PregnancyFoodChoices/)
+
+The example data, configuration files and and helper scripts can be found in the repository in the folder [prediction_tutorial](prediction_tutorial/) 
 
 ## Data preparation scripts
 

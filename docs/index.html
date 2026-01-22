@@ -172,12 +172,18 @@ due to a dependency issue with the PyPI release.</p>
 <p>Verify installation:</p>
 <div class="sourceCode" id="cb5"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">eirpredict</span> <span class="at">--help</span></span></code></pre></div>
-<h2 id="step-3-download-model">Step 3: Download model files</h2>
+<h2 id="step-3-download-model">Step 3: Download scripts and model files</h2>
+<p>Clone the GitHub repository for scripts:</p>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">git clone</span> https://github.com/LoosTeam/DNBC_PregnancyFoodChoices.git</span></code></pre></div>
+<p>Navigate to the prediction_tutorial directory:</p>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>cd prediction_tutorial</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>mkdir models</span></code></pre></div>
 <p>Download model files from Hugging Face:</p>
 <div class="sourceCode" id="cb4"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">hf</span> download arnorsig/danish-food-classification <span class="at">--local-dir</span> models/</span>
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">uvx hf</span> download arnorsig/danish-food-classification <span class="at">--local-dir</span> models/</span>
 </code></pre></div>
-<p><strong>Note</strong>: You can specify the directory where you would like to place the model files in place of <code class="sourceCode bash">.</code></p>
 
 <h2 id="step-4-prepare-your-input-data">Step 4: Prepare Your Input
 Data</h2>
