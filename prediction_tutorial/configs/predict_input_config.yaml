@@ -1,0 +1,32 @@
+input_info:
+  input_inner_key: null
+  input_name: foodtext
+  input_source: example_inputs.csv
+  input_type: sequence
+input_type_info:
+  adaptive_tokenizer_max_vocab_size: null
+  max_length: 81
+  min_freq: 10
+  mixing_subtype: mixup
+  modality_dropout_rate: 0.0
+  sampling_strategy_if_longer: uniform
+  split_on: ' '
+  tokenizer: null
+  tokenizer_language: null
+  vocab_file: null
+interpretation_config:
+  interpretation_sampling_strategy: first_n
+  manual_samples_to_interpret: null
+  num_samples_to_interpret: 10
+model_config:
+  embedding_dim: 64
+  freeze_pretrained_model: false
+  model_init_config: {}
+  model_type: DDSC/roberta-base-danish
+  pool: avg
+  position: embed
+  position_dropout: 0.1
+  pretrained_model: true
+  window_size: 0
+pretrained_config: null
+tensor_broker_config: null

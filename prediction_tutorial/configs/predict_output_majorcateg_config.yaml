@@ -1,0 +1,42 @@
+model_config:
+  model_init_config:
+    fc_do: 0.1
+    fc_task_dim: 256
+    final_layer_type: linear
+    layers:
+    - 2
+    rb_do: 0.1
+    stochastic_depth_p: 0.1
+  model_type: mlp_residual
+output_info:
+  output_inner_key: null
+  output_name: foodcateg_output
+  output_source: null
+  output_type: tabular
+output_type_info:
+  cat_label_smoothing: 0.0
+  cat_loss_name: CrossEntropyLoss
+  con_loss_name: MSELoss
+  label_parsing_chunk_size: null
+  target_cat_columns:
+  - Dairy
+  - Egg
+  - MeatPoultry
+  - Fish
+  - Grains
+  - VegLegume
+  - Fruit
+  - NutSeed
+  - Fastfood
+  - MixedDishes
+  - SupplementFood
+  - SweetFood
+  - SaltFatExtracts
+  - Alcohol
+  - CoffeeTea
+  - OtherBeverages
+  - NonspecChanges
+  target_con_columns: []
+  uncertainty_weighted_mt_loss: false
+sampling_config: {}
+tensor_broker_config: null

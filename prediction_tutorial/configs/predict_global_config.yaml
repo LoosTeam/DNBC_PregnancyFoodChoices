@@ -1,0 +1,10 @@
+attribution_analysis:
+  compute_attributions: false
+basic_experiment:
+  batch_size: 64
+  dataloader_workers: 0
+  device: cpu
+  memory_dataset: true
+visualization_logging:
+  log_level: info
+  no_pbar: false
