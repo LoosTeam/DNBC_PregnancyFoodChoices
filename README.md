@@ -26,6 +26,8 @@ To use the model on your own data, you can follow the guide in our GitHub docs: 
 
 The example data, configuration files and and helper scripts can be found in the repository in the folder [prediction_tutorial](prediction_tutorial/).
 
+✏️ **Note**: The tutorial currently only supports **Linux/MacOS**.
+
 ## Data preparation scripts
 
 
