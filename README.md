@@ -12,7 +12,7 @@ As a part of this study, we developed **[DNBCFoodTextClassifier](https://hugging
 **Subcategories:** 62 specific food categories that were combined to create the 17 major food categories, e.g. Flavoured milks, Berries, Tropical fruits, Leaf and stem vegetables, etc.
 
 
-## Explore the Model’s Performance
+## Explore the model’s performance
 
 Explore the model’s performance using an interactive Shiny application:  
 [DNBCFoodTextClassifier Shiny App](https://cbmr-rmpp.shinyapps.io/DNBCFoodTextClassifier/)
@@ -20,7 +20,7 @@ Explore the model’s performance using an interactive Shiny application:
 Here you can find the performance metrics for predicting different categories and additional plots with prediction scores and feature importances.
 
 
-## Using the DNBCFoodTextClassifier
+## Using DNBCFoodTextClassifier
 
 To use the model on your own data, you can follow the guide in our GitHub docs: [https://loosteam.github.io/DNBC_PregnancyFoodChoices](https://loosteam.github.io/DNBC_PregnancyFoodChoices/)
 
